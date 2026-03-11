@@ -53,11 +53,3 @@ A bootstrap confidence interval was also constructed, showing that the positive 
 2. Make sure all CSV files are in the same folder as the notebook.
 3. Open the notebook in Jupyter Notebook or JupyterLab.
 4. Run all cells in order.
-
-## Important Note
-If the notebook contains local file paths from my computer, update them to relative file names like this:
-
-```python
-medals = Table.read_table("medals.csv")
-gdp = Table.read_table("gdp.csv")
-athletes = Table.read_table("Athletes.csv")
